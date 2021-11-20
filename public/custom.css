@@ -1,0 +1,135 @@
+.white_sp{
+    white-space: nowrap;
+}
+
+.pac-container { z-index: 100000; }
+
+.zoomWindow{
+    z-index: 100000 !important;
+}
+
+.daterangepicker{
+    z-index: 100000 !important;
+}
+
+.xtra-lg{
+    font-size: 17px;
+}
+
+.editAmount{
+    width: 80px;
+}
+
+.p-0{
+    padding: 0px !important;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}
+
+.pt-0{
+    padding-top: 0px !important;
+}
+
+.pr-0{
+    padding-right: 0px !important;
+}
+
+.pl-0{
+    padding-left: 0px !important;
+}
+
+
+.m-0{
+    margin: 0px !important;
+}
+
+.mb-0{
+    margin-bottom: 0px !important;
+}
+
+.mt-0{
+    margin-top: 0px !important;
+}
+
+.mr-0{
+    margin-right: 0px !important;
+}
+
+.ml-0{
+    margin-left: 0px !important;
+}
+
+.wide_in390{
+    width: 390px;
+}
+
+.wide_in290{
+    width: 290px;
+}
+
+.wide_in100{
+    width: 100px;
+}
+
+.wide_in50{
+    width: 50px;
+}
+
+.width_100p{
+    width: 100%;
+}
+
+.p-td{
+    padding: 1px 15px !important;
+}
+
+.p-th{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.table-responsive .dataTables_info {
+    padding-left: 15px !important;
+}
+
+.table-responsive .dataTables_paginate{
+    padding-right: 15px !important;
+}
+
+.table-responsive .dataTables_length{
+    padding-right: 15px !important;
+}
+
+.table-responsive{
+    border-top: none !important;
+}
+.table-responsive .dt-buttons{
+    margin: 0px 15px !important;
+}
+
+.dataTables_wrapper{
+    border-top: none !important;
+}
+
+
+@media print {
+    @page {
+        size: 8.20in 11.25in;
+        /*margin: 27mm 16mm 27mm 16mm;*/
+    }
+
+    .print_hight{
+        min-height: 10.50in;
+    }
+
+    .footer_position{
+        position: absolute;
+        height: 50px;
+        left: 15px;
+        right: 15px;
+        bottom: 5px;
+        padding-top: 25px;
+    }
+}
